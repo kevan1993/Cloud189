@@ -32,8 +32,6 @@ jobs:
         user_list=()
         pwd_list=()
 
-        IFS=","
-
         for u in ${user[*]}
         do
         echo ${u}
